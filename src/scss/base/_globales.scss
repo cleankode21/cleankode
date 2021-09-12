@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    display: block;
+    
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: $fuentePrincipal;
+    font-size: 1.6rem;
+    line-height: 1.8;
+   
+    
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}

@@ -1,0 +1,111 @@
+.onda1 img{
+    width: 100%;
+    margin-bottom: -2rem;
+   
+    }
+    .footer{
+        background-color: $azul;
+        height: 100%;
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .seccion{
+        
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+        @include desktop {
+            border-right: solid 2px $blanco;
+            padding: 1rem;
+            border-bottom: none;
+        }
+    }
+    .footer1{
+        display:  flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @include desktop {
+            @include grid(4 , $separacion / 3)
+        }
+    }
+    .logo2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:$blanco;
+        font-size: 3rem;
+        
+        img{
+            width: 15rem;
+        }
+        p{
+            margin-bottom: -2rem;
+            margin-left: -2rem;
+        }
+    }
+    
+    .infoclean{
+        color: $blanco;
+        font-size: 2rem;
+        
+        
+    }
+    .clean{
+       border: none;
+        @include desktop{
+            border-bottom: solid 2px $blanco;
+        }
+    
+    }
+    
+    .infoservicios{
+        color: $blanco;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        li{
+            
+            list-style: none;
+            padding-right: 2rem;
+            
+        }
+        
+        p{
+            
+            font-size: 2.5rem;
+           
+        }
+    }
+  
+    .footer2{
+        color: $blanco;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .red img{
+        
+        width: 3rem;
+        margin: 1rem;
+    }
+    .redes{
+        display: flex;
+        justify-content: center;
+    }
+    .contacto-footer{
+        color: $blanco;
+        font-size: 2rem;
+        text-align: center;
+        p{
+            font-weight: 100;
+            font-style: oblique;
+        
+        }
+    }
+    

@@ -1,0 +1,24 @@
+.btn-cotizacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+   
+}
+.btn-cotizacion button{
+    background-color: $verde;
+    color:$blanco;
+    border: none;
+    font-size: 2rem;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 5rem;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.85);
+-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.85);
+box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.85);
+}
+
+.btn-cotizacion button:hover{
+    cursor: pointer;
+    background-color: $cardandroid;
+}

@@ -1,0 +1,152 @@
+// Fondo de la seccion
+
+.fondo{
+    background-color: #E3E3E3 ;
+    margin-top: 5rem;
+    display: flex;
+    height: 260rem;
+    @include tablet {
+        height: 210rem;
+    }
+    @include desktop{
+        height: rem;
+    }
+    
+    justify-content: space-between;
+    position: relative;
+}
+
+.ondaleft {
+    margin-left: -30rem ;
+    display: none;
+   @include tablet{
+       display: block;
+   }
+}
+.ondaderecha{
+   padding-left: 60rem; 
+   
+  
+  
+}
+
+.content{
+    position: absolute;
+   
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  
+
+// Contenido de la seccion
+
+.apptitulo{
+    font-size: 3rem;
+    text-align: left;
+    font-weight: $bold;
+    @include tablet {
+        text-align: center;
+    }
+    @include desktop{
+        text-align: left;
+    }
+  
+}
+.contenido-apps{
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-weight: $bold;
+    @include tablet{
+        
+    }
+}
+.cards{
+    
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cel{
+  
+    height: 100rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20rem;
+
+    img{
+        height: 60rem;
+        width: 60rem;
+        margin-top: 20rem;
+        display: none;
+   @include tablet{
+       display: block;
+   }
+    }
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include tablet{
+        flex-direction: row;
+        padding: 3rem ;
+        margin: 5rem;
+    }
+    margin: 4rem;
+    border: none;
+    border-radius: 5rem;
+    padding: 1rem;
+    width: 100%;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.85);
+-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.85);
+box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.85);
+;
+img{
+    width: 20rem;
+
+    margin-right: 2rem;
+
+}
+ .des{
+     text-align: center;
+ }
+ 
+}
+
+
+.apple{
+    background-color: $cardapple; 
+    
+}
+.android{
+    background-color: $cardandroid;
+}
+.nativas{
+    background-color: $cardnativo; 
+   
+}
+    
+}
+.apps{
+    margin-top: 100rem;
+    @include tablet{
+        margin-top: 65rem;
+    }
+    @include desktop{
+        margin-top: 55rem;
+    }
+    button{
+        width: 40rem;
+        height: 7rem;
+        font-size: 3rem;
+        
+    }
+   
+}
+

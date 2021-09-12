@@ -1,0 +1,77 @@
+.portada{
+    
+    display: flex;
+    flex-direction: column;
+    @include tablet{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 2rem;
+    }
+    .imgP{
+        display: none;
+        @include tablet{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             img{
+            width: 30rem;
+            }    
+    }
+        @include desktop{
+            img{
+                width: 60rem;
+                }    
+        }
+        }
+        }
+
+        .infoP{
+
+            width: 100%;
+            text-align: center;
+            color: $blanco;
+            margin-bottom: 5rem;
+
+            @include tablet{
+                margin-top: -3rem;
+            }
+           
+            @include desktop{
+                
+                text-align: left;
+            }
+
+            .titulo{
+                color: var(--blanco);
+                font-weight: 700;
+                font-size: 1.5rem;
+                @include tablet{
+                    font-weight: 700;
+                font-size: 1.8rem;
+                text-align: left;
+
+                }
+                @include desktop{
+                    font-size: 2rem;
+                }
+            }
+            .texto{
+        
+                font-size: 2rem;
+                padding: .5rem;
+                margin-top: -4rem;
+                margin-bottom: -3rem;
+
+                @include tablet{
+                    font-size: 1.4rem;
+                    text-align: left;
+                    margin-bottom: -3rem;
+
+                }   
+                @include desktop{
+                    font-size: 2.3rem;
+            }
+        }
+      
+        
+    }

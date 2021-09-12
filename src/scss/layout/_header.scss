@@ -1,0 +1,33 @@
+.header{
+    background-color: $azul;
+    height: 65rem;
+    width: 100%;
+    @include tablet{
+        height: 55rem;
+    }
+    @include desktop{
+        height: 65rem;
+    }
+    .cabesera{
+        background-color: $azul;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 1.5rem;
+
+        
+    }
+    .onda{
+        margin-top: 2rem;
+    
+        img{
+        
+            width: 30%;
+            height: 10rem;
+          
+    }
+    }
+  
+    
+}
